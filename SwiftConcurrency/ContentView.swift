@@ -22,6 +22,17 @@ struct ContentView: View {
                     }
                 }
             }
+            
+            Button("Test Swift Concurrency") {
+                loadEpisodes(session: session) { episodes in
+                    Task {
+                        let result = try! await loadPosterImages(session: session, for: episodes)
+                        print("Result", result)
+                    }
+                    
+                    print("HELLO WORLD")
+                }
+            }
         }
         .padding()
     }
