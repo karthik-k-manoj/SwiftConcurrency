@@ -12,6 +12,7 @@
 		DA63A5672C3537BF003EBB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA63A5662C3537BF003EBB4B /* Assets.xcassets */; };
 		DA63A56A2C3537BF003EBB4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA63A5692C3537BF003EBB4B /* Preview Assets.xcassets */; };
 		DA63A5722C353A27003EBB4B /* DispatchGroupConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63A5712C353A27003EBB4B /* DispatchGroupConcurrency.swift */; };
+		DA63A5742C35B110003EBB4B /* ThrowingTaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63A5732C35B110003EBB4B /* ThrowingTaskGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DA63A5692C3537BF003EBB4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA63A56B2C3537BF003EBB4B /* SwiftConcurrency.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftConcurrency.entitlements; sourceTree = "<group>"; };
 		DA63A5712C353A27003EBB4B /* DispatchGroupConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroupConcurrency.swift; sourceTree = "<group>"; };
+		DA63A5732C35B110003EBB4B /* ThrowingTaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTaskGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DA63A5622C3537BE003EBB4B /* SwiftConcurrencyApp.swift */,
 				DA63A5712C353A27003EBB4B /* DispatchGroupConcurrency.swift */,
+				DA63A5732C35B110003EBB4B /* ThrowingTaskGroup.swift */,
 				DA63A5642C3537BE003EBB4B /* ContentView.swift */,
 				DA63A5662C3537BF003EBB4B /* Assets.xcassets */,
 				DA63A56B2C3537BF003EBB4B /* SwiftConcurrency.entitlements */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA63A5742C35B110003EBB4B /* ThrowingTaskGroup.swift in Sources */,
 				DA63A5652C3537BE003EBB4B /* ContentView.swift in Sources */,
 				DA63A5632C3537BE003EBB4B /* SwiftConcurrencyApp.swift in Sources */,
 				DA63A5722C353A27003EBB4B /* DispatchGroupConcurrency.swift in Sources */,
